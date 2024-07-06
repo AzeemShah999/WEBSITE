@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LEARNING SITE </title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LEARNING SITE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to LEARNING SITE! This is the homepage.</p>
+        </section>
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form action="/signup" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <input type="submit" value="Sign Up">
+            </form>
+        </section>
+        <section id="login">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Login">
+            </form>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <h3>Videos</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mRMmlo_Uqcs?si=1E7m004UXnZXkCeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Python learning video </p>
+            <!-- You can add your video elements here --> 
+            <h3>Pictures</h3>
+            <img src="C:\Users\HOME\Pictures\Camera Roll\2109 (1).webp" height="300"
+            <p> MOUNTAIN </p>
+            <!-- You can add your image elements here -->
+        </section>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p> This LEARNING SITE is a fantastic website dedicated to showcasing various multimedia content. It aims to provide a seamless user experience with its easy navigation and engaging features.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 LEARNING SITE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
